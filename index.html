@@ -34,8 +34,8 @@
         </div>
 
         <div id="buttons">
-          <button id="button-punch"  onclick="clock.punch()">Punch</button>
-          <button id="button-clear" onclick="clock.clear()">Clear</button>
+          <button id="punch" >Punch</button>
+          <button id="clear" >Clear</button>
         </div>
 
         <div id="readouts">
@@ -58,7 +58,18 @@
     </div>
 
     <script type="text/javascript">
-      $(window).load(function(){initialize()});
+    $(window).load(function(){
+        initialize();
+    });
+
+    $("#punch").on('click', function(){
+        clock.punch();
+    });
+
+    $("#clear").on('click', function(){
+        clock.clear();
+    });
+
     </script>
 
   </body>
