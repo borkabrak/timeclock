@@ -62,12 +62,13 @@
         initialize();
     });
 
-    $("#punch").on('click', function(){
+    $("body").on('click', function(){
         clock.punch();
     });
 
-    $("#clear").on('click', function(){
+    $("#clear").on('click', function(event){
         clock.clear();
+        event.stopPropagation();
     });
 
     </script>
