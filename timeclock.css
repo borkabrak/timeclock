@@ -1,0 +1,92 @@
+body 
+{
+  background-color: #555560;
+  font-family: sans-serif;
+}
+
+h1
+{
+  color: white;
+}
+
+dt 
+{
+  font-weight:bold;
+}
+
+hr
+{
+  border: solid #aaf 1px;
+}
+
+.on
+{
+  background-color: #55ff55;
+}
+
+.off
+{
+  background-color: #ff5555;
+}
+
+#display 
+{
+  padding: 0.3em;
+  background-color: #fcf0ad;
+  width: 50%;
+  height: 80%;
+  overflow: auto;
+}
+
+#readouts
+{
+  border:solid #888888 2px;
+}
+
+#workstate
+{
+
+  padding: 1em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+
+}
+
+#totals
+{
+
+  padding: 1em;
+  background-color: #5555ff;
+
+}
+
+#instructions
+{
+  border: dotted black 1px;
+  background-color: #ddf;
+  font-size: 0.8em;
+}
+
+#instructions-header
+{
+  border-bottom: solid black 1px;
+}
+
+#instructions-header:hover
+{
+  color: blue;
+  background-color: #fff;
+}
+
+#instructions-list
+{
+  margin-left:1em;
+}
+
+#controls
+{
+  width: 40%;
+  float: right;
+
+}

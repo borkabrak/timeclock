@@ -1,0 +1,66 @@
+<html>
+
+  <head>
+
+    <script type="text/javascript" src="../scripts/jquery-1.4.4.js" ></script>
+    <script type="text/javascript" src="timeclock.js"></script>
+    <link rel="stylesheet" type="text/css" href="timeclock.css" />
+
+    <title>TimeClock</title>
+
+  </head>
+
+  <body>
+
+    <h1>TimeClock</h1>
+
+    <div id="top-layout">
+
+      <div id="controls">
+
+        <div id="instructions">
+
+          <h3 id="instructions-header">Instructions [type 'i']</h3>
+
+          <dl id="instructions-list">
+            <dt>[Enter],[space]</dt>
+            <dd>Punch the clock</dd>
+            <dt>Shift-C</dt>
+            <dd>Clears the data</dd>
+            <dt>i</dt>
+            <dd>Toggle these instructions</dd>
+          </dl>
+
+        </div>
+
+        <div id="buttons">
+          <button id="button-punch"  onclick="clock.punch()">Punch</button>
+          <button id="button-clear" onclick="clock.clear()">Clear</button>
+        </div>
+
+        <div id="readouts">
+
+          <div id="workstate" class="off"> </div>
+
+          <div id="totals">
+            <h2 id="totals-header">Totals</h2>
+            Worked: <span id="work"></span>
+            <br />
+            Break: <span id="break"></span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="display"> </div>
+
+    </div>
+
+    <script type="text/javascript">
+      $(window).load(function(){initialize()});
+    </script>
+
+  </body>
+
+</html>
