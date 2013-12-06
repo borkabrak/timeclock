@@ -12,5 +12,3 @@ TODO (Maybe)
 
 * Better design for mobile devices.
     - Click *anywhere* to punch clock.
-
-* Auto-sync demo
