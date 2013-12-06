@@ -11,4 +11,9 @@ TODO (Maybe)
 * Themes
 
 * Better design for mobile devices.
-    - Click *anywhere* to punch clock.
+
+
+BUGS
+====
+* The 'click anywhere to punch the clock' functionality is a problem when
+clicking the page just to give it focus.
