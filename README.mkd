@@ -4,3 +4,12 @@ TIMECLOCK
 A punch-in/punch-out time tracking device.
 
 [demo](http://www.borkabrak.org/timeclock)
+
+TODO (Maybe)
+============
+
+* Themes
+
+* Better design for mobile devices.
+    - Click *anywhere* to punch clock.
+    
