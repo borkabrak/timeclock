@@ -5,12 +5,18 @@ A punch-in/punch-out time tracking device.
 
 [demo](http://www.borkabrak.org/timeclock)
 
-TODO (Maybe)
+TODO
 ============
 
-* Themes
+1. HTML5-ize.
 
+* Printable/saveable 'invoice' format.
+    
+    - This would have to include an 'undo punch' function.
+    
 * Better design for mobile devices.
+
+* Themes?
 
 
 BUGS
