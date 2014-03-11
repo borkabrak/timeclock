@@ -15,8 +15,14 @@ TODO
     - This would have to include an 'undo punch' function.
 
 * Remembering data over reloads.  Use HTML5 local storage?
-    
+
 * Better design for mobile devices.
+
+
+* Consider Editing - adding old records/punches.  This **is** for personal
+  use, after all -- security of the record is not an issue -- this is a tool
+  **for** the user, not their client.
+    
 
 BUGS
 ====
