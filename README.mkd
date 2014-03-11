@@ -8,16 +8,15 @@ A punch-in/punch-out time tracking device.
 TODO
 ============
 
-1. HTML5-ize.
+* HTML5-ize.
 
 * Printable/saveable 'invoice' format.
     
     - This would have to include an 'undo punch' function.
+
+* Remembering data over reloads.  Use HTML5 local storage?
     
 * Better design for mobile devices.
-
-* Themes?
-
 
 BUGS
 ====
