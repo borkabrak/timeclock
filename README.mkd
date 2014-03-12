@@ -22,9 +22,3 @@ TODO
 * Consider Editing - adding old records/punches.  This **is** for personal
   use, after all -- security of the record is not an issue -- this is a tool
   **for** the user, not their client.
-    
-
-BUGS
-====
-* The 'click anywhere to punch the clock' functionality is a problem when
-clicking the page just to give it focus.
