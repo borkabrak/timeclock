@@ -24,7 +24,7 @@
           <h3 id="instructions-header">Instructions [type 'i']</h3>
 
           <dl id="instructions-list">
-            <dt>[Enter], [space], click the 'punch' button, click anywhere</dt>
+            <dt>[Enter], [space], click the 'punch' button</dt>
             <dd>Punch the clock</dd>
             <dt>Shift-C, click the 'clear' button</dt>
             <dd>Clears the data</dd>
@@ -63,7 +63,7 @@
         initialize();
     });
 
-    $("body").on('click', function(){
+    $("button#punch").on('click', function(){
         clock.punch();
     });
 
